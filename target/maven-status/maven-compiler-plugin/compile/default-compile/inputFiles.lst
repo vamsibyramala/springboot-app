@@ -1,0 +1,4 @@
+/root/springboot-app/src/main/java/com/mani/MyDemoWebAppMySqlApplication.java
+/root/springboot-app/src/main/java/com/mani/controller/StudentController.java
+/root/springboot-app/src/main/java/com/mani/entity/Student.java
+/root/springboot-app/src/main/java/com/mani/repo/StudentRepository.java

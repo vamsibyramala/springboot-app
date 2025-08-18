@@ -1,0 +1,4 @@
+com/mani/MyDemoWebAppMySqlApplication.class
+com/mani/controller/StudentController.class
+com/mani/entity/Student.class
+com/mani/repo/StudentRepository.class
