@@ -7,6 +7,25 @@
     body { font-family: Arial, sans-serif; background: #f5f9fc; padding: 30px; }
     .header { text-align: center; margin-bottom: 20px; }
     h1 { color: #222; }
+
+    .actions {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background: #0056b3;
+    }
+
     table { width: 100%; border-collapse: collapse; margin-top: 20px; }
     th, td { padding: 10px; border: 1px solid #ccc; text-align: center; }
     th { background: #007bff; color: white; }
@@ -15,6 +34,11 @@
 <body>
   <div class="header">
     <h1>Welcome to Student Dashboard</h1>
+  </div>
+
+  <!-- Register Button -->
+  <div class="actions">
+    <a href="register.html" class="btn">Register Student</a>
   </div>
 
   <table id="studentsTable">

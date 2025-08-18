@@ -68,6 +68,6 @@ public class StudentController {
 
     @GetMapping("/page/dashboard")
     public ResponseEntity<?> dashboardPage() {
-        return ResponseEntity.ok(new ClassPathResource("static/dashboard.html"));
+        return ResponseEntity.ok(new ClassPathResource("static/index.html"));
     }
 }
